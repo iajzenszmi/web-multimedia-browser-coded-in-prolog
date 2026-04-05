@@ -1,0 +1,96 @@
+ian@ian-PORTEGE-Z930:~/Downloads$ ./setup_and_run_prolog_browser_internal_fixed4.sh
+
+==> Installing dependencies
+[sudo] password for ian: 
+Hit:1 http://au.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://au.archive.ubuntu.com/ubuntu jammy-updates InRelease              
+Hit:3 http://au.archive.ubuntu.com/ubuntu jammy-backports InRelease            
+Hit:4 http://dl.google.com/linux/earth/deb stable InRelease                    
+Hit:5 https://dl.google.com/linux/chrome/deb stable InRelease                  
+Hit:6 http://security.ubuntu.com/ubuntu jammy-security InRelease               
+Get:7 https://deb.opera.com/opera-stable stable InRelease [3,172 B]            
+Err:7 https://deb.opera.com/opera-stable stable InRelease  
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 11EE8C00B693A745
+Hit:8 https://ppa.launchpadcontent.net/swi-prolog/stable/ubuntu jammy InRelease
+Fetched 3,172 B in 1s (2,409 B/s)
+Reading package lists... Done
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://deb.opera.com/opera-stable stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 11EE8C00B693A745
+W: Failed to fetch https://deb.opera.com/opera-stable/dists/stable/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 11EE8C00B693A745
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+python3-pyqt5 is already the newest version (5.15.6+dfsg-1ubuntu3).
+python3-pyqt5.qtwebchannel is already the newest version (5.15.6+dfsg-1ubuntu3).
+python3-pyqt5.qtwebengine is already the newest version (5.15.5-1).
+python3 is already the newest version (3.10.6-1~22.04.1).
+xdg-utils is already the newest version (1.1.3-4.1ubuntu3~22.04.1).
+swi-prolog is already the newest version (10.0.2-0-jammyppa2).
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2 libllvm13
+Use 'sudo apt autoremove' to remove them.
+0 to upgrade, 0 to newly install, 0 to remove and 9 not to upgrade.
+
+==> Checking system Python Qt imports
+Interpreter : /usr/bin/python3
+Version     : 3.10.12
+Qt version  : 5.15.3
+PyQt5 import: OK
+WebEngine   : QWebEngineView
+
+==> Creating application directory at /home/ian/prolog_multimedia_browser_internal
+
+==> Checking generated frontend syntax with system Python
+
+==> Checking generated Prolog backend syntax
+
+==> Starting Prolog backend
+
+==> Waiting for backend to accept connections
+
+==> Launching internal multimedia browser window
+Using system Python: /usr/bin/python3
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+js: A preload for 'https://duckduckgo.com/country.json' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute.
+js: The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-1-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-2-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://duckduckgo.com/country.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://duckduckgo.com/static-assets/icons/animated-download-icon-light.gif was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://duckduckgo.com/static-assets/image/sad/chrome/chrome-3-light-en-US.png was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: Attempted to start an event that already exists: homepage_search-from-homepage
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.2808.3f45816ab8b2ca967cdc.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.9814.3c32432cd628fc082285.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.feedback-modal.32eeecc123f7d507f8b6.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.7477.d1f1d20e21e18bbe101c.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.images-vertical.344eaae4d2ce06d08841.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: Refused to prefetch content from 'https://duckduckgo.com/dist/wpm.shopping-vertical.81c05ca2934967d013e1.js' because it violates the following Content Security Policy directive: "default-src 'none' ". Note that 'prefetch-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+js: storage support not available
+js: It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior.
+js: Invalid config, wrong type for .abr.defaultBandwidthEstimate
+js: It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior.
+js: It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior.
+js: It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior.
+js: It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior.
+../../3rdparty/chromium/sandbox/linux/seccomp-bpf-helpers/sigsys_handlers.cc:**CRASHING**:prctl() failure
+js: storage support not available
+js: storage support not available
+js: Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+js: This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment.
+js: Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=2_20260403&foc_id=VgO39Bk5sMo66-6o6Spn6Q&label=followon_view&ptype=no_rmkt&random=976482972&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=2_20260403&foc_id=VgO39Bk5sMo66-6o6Spn6Q&label=followon_view&ptype=no_rmkt&random=976482972') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+js: The resource https://rr5---sn-hxa76n7s.c.youtube.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: The resource https://rr3---sn-ajhxac-5c.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+js: ResizeObserver loop limit exceeded
+js: ResizeObserver loop limit exceeded
+ian@ian-PORTEGE-Z930:~/Downloads$ 
+
